@@ -8,7 +8,7 @@ body {
 #hero {
     background-image: url("images/galaxy.webp");
     background-size: cover;
-    padding: 10 0 40;
+    padding: 10px 0 40px;
 }
 
 #main-logo {
