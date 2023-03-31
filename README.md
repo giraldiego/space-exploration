@@ -70,7 +70,7 @@ font-weight: 800; /* bold */
 https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
 ```css
 text-shadow: 5px 5px 5px black;
-/*			  ➡️   ⬇️  blur color */
+/* 	     ➡️   ⬇️  blur color */
 
 text-shadow: 0px 0px 2px black;
 /* To make the text stand out when similar colors between bg and fg*/
