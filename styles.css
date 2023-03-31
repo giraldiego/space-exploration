@@ -9,9 +9,8 @@ body {
     text-align: center;
 }
 
-#spacex-logo {
-    width: 120px;
-    margin: 0 auto;
+#main-logo {
+    width: 100px;
 }
 
 .btn {
