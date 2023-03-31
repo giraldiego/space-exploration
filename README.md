@@ -11,3 +11,67 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
+
+## Build a digital Business Card
+
+### Background images
+https://unsplash.com/
+```css
+background-image: url("images/universe.jpg");
+background-size: cover;
+```
+
+### Google Font
+https://fonts.google.com/
+
+> To embed a font, copy the code into the `<head>` of your html 
+> CSS rules to specify families
+
+```css
+.btn{
+	font-family: inherit; /* You need this for buttons */
+}```
+https://www.1001fonts.com/
+
+### Specific Fonts
+```css
+@font-face {
+    src: url("Corleone.ttf");
+    font-family: Corleone;
+}
+```
+
+### span tag
+```html
+<span></span>
+```
+
+### IDs & utility classes
+```css
+#main-logo {
+    width: 100px;
+}```
+
+### webp animated images
+https://giphy.com/
+```css
+background-image: url("images/galaxy.webp");
+```
+
+### Palette from images and font weight
+https://coolors.co/image-picker
+
+```css
+color: inherit;
+font-weight: 800; /* bold */
+```
+
+### Text shadow
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+```css
+text-shadow: 5px 5px 5px black;
+/*			  ➡️   ⬇️  blur color */
+
+text-shadow: 0px 0px 2px black;
+/* To make the text stand out when similar colors between bg and fg*/
+```
