@@ -1,12 +1,14 @@
 body {
+    margin: 0;
     color: #81A4CC;
-    background-image: url("images/galaxy.webp");
-    background-size: cover;
     font-family: 'Orbitron', sans-serif;
 }
 
-.wrapper {
+.hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
     text-align: center;
+    padding: 30 0 60;
 }
 
 #main-logo {
@@ -28,6 +30,13 @@ body {
     border-bottom: 4px solid white;
 }
 
+h3 {
+    display: block;
+    width: max-content;
+    margin: 20 auto;
+    font-weight: bold;
+}
+
 /* body * {
-    border: 1px solid white;
+    border: 1px solid yellow;
 } */
